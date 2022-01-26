@@ -1,4 +1,4 @@
-package car_dealership;
+package com.akash.bike.dealership;
 
 public class Vehicle {
     private int modelYear;
