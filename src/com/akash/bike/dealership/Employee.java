@@ -1,4 +1,4 @@
-package car_dealership;
+package com.akash.bike.dealership;
 
 public class Employee extends Dealership{
     public String getEmployeeName() {
