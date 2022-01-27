@@ -51,7 +51,7 @@ public class Customer {
     public String address;
     public double cashOnHand;
 
-    public void purchaseCar(Vehicle vehicle, String employee, boolean Finance) {
+    public void purchaseBike(Vehicle vehicle, String employee, boolean Finance) {
         if(cashOnHand < vehicle.getPrice() ) System.out.println("You Can gte out of here");
          else System.out.println
                 ("now or never");
