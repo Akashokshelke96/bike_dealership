@@ -1,6 +1,12 @@
 package com.akash.bike.dealership;
 
 public class Employee extends Dealership{
+    String employeeName;
+    String empId;
+    Boolean finance;
+    String dept;
+
+
     public String getEmployeeName() {
         return employeeName;
     }
@@ -33,9 +39,15 @@ public class Employee extends Dealership{
         this.dept = dept;
     }
 
-    String employeeName;
-    String empId;
-    Boolean finance;
-    String dept;
+    public static void handleCustomer(Customer customer,boolean finance, Vehicle vehicle){
+        if(finance){
+
+        }
+    }
+    public static void runCreditHistory(Customer cust , double amount, Vehicle vehicle){
+        System.out.println("yes you canm  buy this car");
+
+    }
+
 
 }
